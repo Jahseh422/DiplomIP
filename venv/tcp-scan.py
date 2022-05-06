@@ -4,7 +4,7 @@ from datetime import datetime
 net = input("Ввести IP: ")
 net1 = net.split('.')
 a = '.'
-
+ф
 net2 = int(input('Порт от: ')) # запрос порта о
 
 st1 = int(input("Введите начальное число: "))

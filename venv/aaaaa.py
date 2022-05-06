@@ -4,7 +4,7 @@ import platform
 
 
 
-
+ф
 
 ipdress = socket.gethostbyname(socket.gethostname())
 host = socket.gethostname()
