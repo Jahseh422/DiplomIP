@@ -7,7 +7,7 @@ if __name__ == '__main__':
     b = int(input('Порт до: ')) # запрос порта до
     t_IP = gethostbyname(target) # для красоты кода .
     print('Начато сканирование хоста: ', t_IP) #вывод информации в консоль
-ф
+
     tic = time.perf_counter() #начало отсчёта таймера
 
     for i in range(a, b):  # Сканирование портов ОТ - ДО.
