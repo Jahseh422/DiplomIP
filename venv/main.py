@@ -1,9 +1,6 @@
 import socket
-
 import datetime
-
 import os
-
 import sys
 
 LOG_FNAME = "network.log"
