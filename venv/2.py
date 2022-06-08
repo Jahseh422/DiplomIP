@@ -1,21 +1,20 @@
 import netifaces
-import datetime
-import ipaddress # импорт требуемых библиотек
+import datetime        # импорт требуемых библиотек
 
 
 now = datetime.datetime.now() #переменная для записи даты в начало файла
 a: object = (netifaces.interfaces()) #использование импортированной библиотеки netifaces, с помощью которой выводится список интерфейсов
 
 
-loopback = (netifaces.ifaddresses('{F51A6749-68F2-11EC-A5E7-806E6F6E6963}')) #интерфейс loopback
-eth0 = (netifaces.ifaddresses('{6948DD58-3D26-4F83-BE20-52F15DA55416}')) #ethernet интерфейс
+loopback = (netifaces.ifaddresses('{ED29E33C-B605-41DC-A0F5-A6A25C1852C3}')) #интерфейс loopback
+eth0 = (netifaces.ifaddresses('{93123211-9629-4E04-82F0-EA2E4F221468}')) #ethernet интерфейс
 
 
 
 
 try:
  file = open("out.txt", "a+")                                      #команда file=open с аргументом a+ создает файл out.txt /если создан, дозаписывает
- file.write("======================================\n")  #запись для удобства чтения, /n - переход на новую строку
+ file.write("================================================\n")  #запись для удобства чтения, /n - переход на новую строку
  file.write("Дата записи:\n")
  file.write(str(now.isoformat()))                                  # использование переменной new в формате iso
  file.write("\n")
