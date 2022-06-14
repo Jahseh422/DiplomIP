@@ -1,14 +1,14 @@
 import socket
 import os
-import platform
+import platform  #импорт требуемых библиотек
 
 
 
 
-ipdress = socket.gethostbyname(socket.gethostname())
-host = socket.gethostname()
+ipdress = socket.gethostbyname(socket.gethostname()) #получение локального IP.
+host = socket.gethostname() #получение имени компьютера, через хранение в контейнере.
 
 
 print('Твой локальный ип - ', ipdress)
-print ('Название твоего компа:', platform.node())
-print('Более точная проверка путем gethostname:',host)
+print ('Название компьютера:', platform.node())
+print('Получение имени через контейнер, путем gethostname:',host)
