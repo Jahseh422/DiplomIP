@@ -37,7 +37,9 @@ except FileNotFoundError:                                         #
 
 s = socket.socket()         # Create a socket object
 host = socket.gethostname() # Get local machine name
-port = 12345                 # Reserve a port for your service.
+print(s)
+print(host)
+port = 9090                 # Reserve a port for your service.
 
 s.connect((host, port))
 f = open('out.txt','rb')
