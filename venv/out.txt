@@ -4,14 +4,18 @@
 Список интерфейсов:
 ['{ED29E33C-B605-41DC-A0F5-A6A25C1852C3}', '{E3EEA12F-16C0-11EC-9792-806E6F6E6963}', '{93123211-9629-4E04-82F0-EA2E4F221468}']
 Информация о интерфейсе loopback и eth0 :
-loopback:     {-1000: [{'addr': 'b4:2e:99:e8:fa:85'}], 23: [{'addr': 'fe80::b51a:2734:c36c:3f97%14', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'broadcast': 'fe80::ffff:ffff:ffff:ffff%14'}], 2: [{'addr': '192.168.1.105', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}]}
-eth0:         {-1000: [{'addr': '00:00:00:00:00:00:00:e0'}], 23: [{'addr': '2001:0:1428:8f18:3841:f3e8:4f9a:f870', 'netmask': 'ffff:ffff::/32', 'broadcast': '2001:0:ffff:ffff:ffff:ffff:ffff:ffff'}, {'addr': 'fe80::3841:f3e8:4f9a:f870%12', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'broadcast': 'fe80::ffff:ffff:ffff:ffff%12'}]}
+loopback:
+eth0:
 ================================================================================================
 Дата записи:
 2022-06-09T01:51:38.417579
 Список интерфейсов:
 ['{ED29E33C-B605-41DC-A0F5-A6A25C1852C3}', '{E3EEA12F-16C0-11EC-9792-806E6F6E6963}', '{93123211-9629-4E04-82F0-EA2E4F221468}']
 Информация о интерфейсе loopback и eth0 :
-loopback:     {-1000: [{'addr': 'b4:2e:99:e8:fa:85'}], 23: [{'addr': 'fe80::b51a:2734:c36c:3f97%14', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'broadcast': 'fe80::ffff:ffff:ffff:ffff%14'}], 2: [{'addr': '192.168.1.105', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}]}
-eth0:         {-1000: [{'addr': '00:00:00:00:00:00:00:e0'}], 23: [{'addr': '2001:0:1428:8f18:3841:f3e8:4f9a:f870', 'netmask': 'ffff:ffff::/32', 'broadcast': '2001:0:ffff:ffff:ffff:ffff:ffff:ffff'}, {'addr': 'fe80::3841:f3e8:4f9a:f870%12', 'netmask': 'ffff:ffff:ffff:ffff::/64', 'broadcast': 'fe80::ffff:ffff:ffff:ffff%12'}]}
+loopback:     {-1000: [{'addr': 'b4:2e:99:e8:fa:85'}], 23: [{'addr': 'fe80::b51a:2734:c36c:3f97%14',
+'netmask': 'ffff:ffff:ffff:ffff::/64', 'broadcast': 'fe80::ffff:ffff:ffff:ffff%14'}], 2: [{'addr': '192.168.1.105',
+'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}]}
+eth0:         {-1000: [{'addr': '00:00:00:00:00:00:00:e0'}], 23: [{'addr': '2001:0:1428:8f18:3841:f3e8:4f9a:f870',
+'netmask': 'ffff:ffff::/32', 'broadcast': '2001:0:ffff:ffff:ffff:ffff:ffff:ffff'}, {'addr': 'fe80::3841:f3e8:4f9a:f870%12',
+'netmask': 'ffff:ffff:ffff:ffff::/64', 'broadcast': 'fe80::ffff:ffff:ffff:ffff%12'}]}
 ================================================
